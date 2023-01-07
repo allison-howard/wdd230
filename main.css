@@ -4,6 +4,12 @@
     grid-template-rows: 75px 75px 75px auto auto 75px 75px;
 }
 
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+    float: none;
+}
+
 header {
     grid-column: 3 / 7;
     grid-row: 1 / 4 ;
@@ -23,7 +29,7 @@ img {
 
 }
 
-h2 {
+h1 {
     float: right;
     margin-right: 125pt;
     margin-top: 60pt;
@@ -31,10 +37,10 @@ h2 {
     color:white;
 }
 
-h3 {
+h2 {
     grid-column: 4 / 7;
     grid-row: 4 / 5;
-    margin-left:15pt;
+    margin-left:8pt;
 
 }
 
@@ -44,14 +50,14 @@ a {
 }
 
 
-ul {
+main {
     grid-column: 4 / 7;
     grid-row: 5 / 6;
-    margin-bottom: 40pt;
+    margin-bottom: 20pt;
    
 }
 
-h1 {
+h3 {
    margin-left: 120pt;
    margin-top:25pt;
    font-size: 20pt;
