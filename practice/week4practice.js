@@ -1,3 +1,4 @@
+//Button JS
 const button = document.querySelector('.btn');
 
 function show() {
@@ -7,7 +8,13 @@ function show() {
 button.addEventListener('click', show);
 
 
-//Hamburger Button JS
+
+
+
+
+
+
+//Hamburger Menu JS
 
 const mainnav = document.querySelector('.navigation');
 const hambuton = document.querySelector('.ham');
