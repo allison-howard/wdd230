@@ -1,0 +1,13 @@
+#image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    transition: opacity 0.5s;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }

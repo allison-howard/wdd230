@@ -43,3 +43,5 @@ if (temp <= 50 && windspeed >= 3) {
 } else {
     document.getElementById('wc').textContent = "N/A";
 }
+
+
