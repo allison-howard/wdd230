@@ -5,12 +5,58 @@ hambuton.addEventListener('click', () => {
     mainnav.classList.toggle('responsive');
 })
 
-if (! localStorage.getItem('last visit')){
-    localStorage.setItem('last visit', Date.now());
-    document.getElementById('diff').textContent = "Welcome";
-} else {
-    currentDate = Date.now();
-    //get the item from local storage,set it to todays date
-    //do some math
-    //change the span :)
+const images = document.querySelectorAll('[data-src]');
+
+function preloadImage(img){
+    const source = img.getAttribute('data-src');
+    if(!source) {
+        return;
+    }
+
+    img.src = source;
+}
+
+const options = {
+    threshold: .5,
+    rootMargin: "-50px"
 };
+
+const io = new IntersectionObserver (
+    (entries, io) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return;
+            } else {
+                console.log(entry.target);
+                preloadImage(entry.target);
+                io.unobserve(entry.target); 
+            }
+        });     
+    }, options
+);
+
+
+images.forEach(image => {
+    io.observe(image);
+});
+
+if(!localStorage.getItem('lastvisit')) {
+    localStorage.setItem('lastvisit', Date.now());
+    document.getElementById('diff').textContent = 'This is your 1st visit';
+} else {
+    setStyles();
+}
+
+function setStyles() {
+    let prevDate = localStorage.getItem('lastvisit');
+    let currDate = Date.now();
+    
+    let difference = currDate - prevDate;
+        console.log(difference);
+        let daysDifference = Math.floor(difference/1000/60/60/24);
+
+    document.getElementById('diff').textContent = daysDifference;
+
+    localStorage.setItem('lastvisit', Date.now());
+
+}

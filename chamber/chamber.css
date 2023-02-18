@@ -6,7 +6,7 @@ a:hover {
 #welcome {
     width: 100%;
     max-height: 250px;
-    content: url(images/size/small.jpg)
+    content: url(images/welcome.jpg)
 }
 
 #weatherlogo {
@@ -246,12 +246,6 @@ div {
         grid-column: 1 /6;
     }
 
-    #welcome {
-        content:url(images/size/medium.jpg)
-    }
-
-      
-
     
 }
 
@@ -345,12 +339,6 @@ div {
         width:400px;
     }
 
-    #welcome {
-        width: 100%;
-        min-height: 540px;
-        content: url(images/size/Large.jpg)
-    }
-
     #joinbtn {
         position: absolute;
         transform: translate(-175px, 460px);
@@ -359,6 +347,11 @@ div {
         border-radius: 10px;
         background-color:#2BC253;
         border:6px;
+    }
+
+    #welcome {
+        object-fit: fill;
+        min-height: 540px;
     }
 
 
