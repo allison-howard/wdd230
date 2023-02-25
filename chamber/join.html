@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="This is my Join page for WDD230.">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <title>Happy Valley Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo3.webp" alt="Chamber of Commerce Logo">
+        <nav class="navigation">
+            <a class="ham" href="#">&#9776;</a>
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="join.html">Join</a>
+            <a href="#">Page 3</a>
+        </nav>
+        <h2><span class=updated></span></h2>
+    </header>
+    <h1>Join our Chamber</h1>
+
+    <main id="join_content">
+       
+            
+
+        <form method="get" action="thankyou.html">
+        <label for="fname">First Name *:</label>
+        <input id="fname" name="firstname" required>
+
+        <label for="lname">Last Name *:</label>
+        <input id="lname" name="lastname" required>
+
+        <label for="title">Business Position Title *:</label>
+        <span>Only letters, dashes and spaces, 7 or more letters</span>
+        <input id="title" name="biztitle" pattern="[- A-Za-z]+" minlength="7" required>
+
+        <label for="email">Email *:</label>
+        <input id="email" name="email" type="email" placeholder="name@domain.com" required>
+
+        <label for="phone">Cell Phone Number *:</label>
+        <input id="phone" name="phone" type="tel" required>
+        
+        <label for="business">Business Name *:</label>
+        <input id="business" name="bizname" required>
+
+        
+            <label id="member">Enter your Level of Membership</label>
+            <div id="radio">
+                <input type="radio" id="one" name="mlevel" value="level1">
+                <label for="one">Level 1</label>
+            
+                <input type="radio" id="two" name="mlevel" value="level2">
+                <label for="two">Level 2</label>
+            
+                <input type="radio" id="three" name="mlevel" value="level3">
+                <label for="three">Level 3</label>
+            
+                <input type="radio" id="four" name="mlevel"
+                value="level4">
+                <label for="four">Level 4</label>
+            </div>
+        
+
+        
+        <label for="message">Business Description:</label>
+        <textarea id="message"></textarea>
+
+        <input id='date' type="hidden" name="todaydate">
+
+
+        
+        <input type="submit" value="Join the Chamber">
+
+    </form>
+    <div id="memberinfo">
+        <h2>Membership levels benefits</h2>
+        <h3>NP Membership</h3>
+        <ul>
+            <li>For non profit organizations and there is no fee</li>
+        </ul>
+        <h3>Bronze Membership</h3>
+        <ul> 
+            <li>15% discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+        </ul>
+        <h3>Silver Membership</h3>
+        <ul>
+            <li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li>
+        </ul>
+        <h3>Gold Membership</h3>
+        <ul>
+            <li>50% discount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $250/month</li>
+        </ul>
+    </div>
+    
+</main>
+
+    <footer>
+        <div class="footer-left">
+          <img id="footerlogo" src="images/logo3.webp" alt="Happy Valley Commerce Logo">
+          <h4>Happy Valley Chamber of Commere <br>1234 SE 123 Ave <br>Happy Valley, OR 97015</h4>
+        </div>
+        <div class="footer-right">
+            <p>info@happyvalleycommerce.org <br>(503)123-1234</p>
+            <a id="location" href="https://goo.gl/maps/hR8WbKUpewNj8eqs9" target="_blank">Location Map</a>
+    
+        </div>
+        <h3 class="footer-bottom">WDD230 | Allison Merrick | BYU-Idaho| Last Modified: <span class="updated2"></span></h3>
+    </footer>
+
+
+
+    <script src="scripts/discover.js"></script>
+</body>
+</html>
