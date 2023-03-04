@@ -24,7 +24,7 @@
             },
             "phone": "503-342-8451",
             "website": "https://stickmenbeer.com/",
-            "logo": "images/directory/glass.webp"
+            "logo": "images/directory/Brewing.png"
         },
         {
             "name": "West End Boutique",
@@ -37,7 +37,7 @@
             },
             "phone": "503-653-6613",
             "website": "https://westendboutique.com/",
-            "logo": "images/directory/patagucci.webp"
+            "logo": "images/directory/westend.jfif"
         },
         {
             "name": "Happy Valley Nursery",
@@ -50,7 +50,7 @@
             },
             "phone": "503-698-6012",
             "website": "http://www.hvnursery.com/",
-            "logo": "images/directory/plants.webp"
+            "logo": "images/directory/nursery.jfif"
         },
         {
             "name": "Pieology Pizzeria",
@@ -63,7 +63,7 @@
             },
             "phone": "503-303-4486",
             "website": "https://pieology.com/",
-            "logo": "images/directory/pizza.webp"
+            "logo": "images/directory/pieology.jfif"
         },
         {
             "name": "Hapy Valley Station Food Carts",
@@ -76,7 +76,7 @@
             },
             "phone": "503-762-5899",
             "website": "https://happyvalleystation.com/",
-            "logo": "images/directory/grocery.webp"
+            "logo": "images/directory/foodcarts.jfif"
         },
         {
             "name": "Hops n Drops",
@@ -89,7 +89,7 @@
             },
             "phone": "503-427-2523",
             "website": "https://hopsndrops.com/",
-            "logo": "images/directory/ellenos.webp"
+            "logo": "images/directory/hopsndrops.jfif"
         },
         {
             "name": "Happy Valley Public Library",
@@ -102,7 +102,7 @@
             },
             "phone": "503-783-3456",
             "website": "https://www.happyvalleyor.gov/",
-            "logo": "images/directory/library.webp"
+            "logo": "images/directory/library.jpg"
         },
         {
             "name": "Escapology Escape Rooms",
@@ -115,7 +115,7 @@
             },
             "phone": "503-927-1945",
             "website": "https://www.escapology.com/en/clackamas-or",
-            "logo": "images/directory/spaceneedle.webp"
+            "logo": "images/directory/escapeology.jpg"
         },
         {
             "name": "Aquatic Park",
@@ -128,7 +128,7 @@
             },
             "phone": "503-577-7873",
             "website": "https://ncprd.com/aquatic-park",
-            "logo": "images/directory/aqua.webp"
+            "logo": "images/directory/aquaticpark.jpg"
         },
         {
             "name": "Happy Valley Park",
@@ -141,7 +141,7 @@
             },
             "phone": "503-783-3800",
             "website": "https://www.happyvalleyor.gov/?NID=143",
-            "logo": "images/directory/spheres.webp"
+            "logo": "images/directory/park.jpg"
         },
         {
             "name": "Happy Hollow",
@@ -154,7 +154,7 @@
             },
             "phone": "503-427-2961",
             "website": "http://www.happyhollowpizza.com/",
-            "logo": "images/directory/pinkdoor.webp"
+            "logo": "images/directory/happyhollow.jfif"
         }
     ]
 }
