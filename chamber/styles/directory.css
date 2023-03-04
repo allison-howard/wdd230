@@ -141,6 +141,9 @@ a:first-child{
 .icons button {
     background-color: white;
     border: none;   
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
 }
 
 .icons button:hover {
