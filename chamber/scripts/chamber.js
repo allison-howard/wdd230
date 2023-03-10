@@ -34,7 +34,7 @@ if (realDayofWeek === 1 || realDayofWeek === 2) {
 }
 
 
-const apiURL = "https://goosee5.github.io/cors-anywhere.php?url=https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/97086?unitGroup=metric&key=8ZLVEA9GKDT9RHBLC5GB6KA9C&contentType=json";
+const apiURL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/97086?unitGroup=metric&key=8ZLVEA9GKDT9RHBLC5GB6KA9C&contentType=json";
 
 const getWeather = async () => {
     const response = await fetch(apiURL);
