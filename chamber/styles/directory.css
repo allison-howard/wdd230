@@ -3,6 +3,10 @@
 a:hover {
     background-color: #687482;
 }
+a {
+    text-decoration :black ;
+}
+
 #welcome {
     width: 100%;
     max-height: 250px;
@@ -38,33 +42,12 @@ h2{
     position:relative;
     bottom: 20px;
     left:50px
-    
 }
 
 footer {
     background-color: #9e9e9e;
     height: 400px;
-  }
-
-  .footer-left {
-    background-color: #9e9e9e;
-    border:none;
-    position: center;
-  }
-
-  .footer-right {
-    background-color: #9e9e9e;
-    border:none;
-    position:center;
-    left:500px;
-    bottom: 120px;
-  }
-
-  .footer-bottom{
-    background-color: #9e9e9e;
-    position: relative;
-    bottom: 125px;
-    left: 10px
+    margin:10px;
   }
 
 nav a {
@@ -200,12 +183,20 @@ tr td {
         grid-row:1 / 2;
     }
 
+    tr td {
+        display: table-cell;
+    }
+
     
 }
 
 @media screen and (min-width: 1000px){
     nav a {
         padding: 90px 70px;
+    }
+
+    tr td {
+        display: table-cell;
     }
 
 
@@ -225,6 +216,10 @@ tr td {
 
     #banner {
         grid-row: 2 / 3;
+    }
+
+    tr td {
+        display: table-cell;
     }
 
 }

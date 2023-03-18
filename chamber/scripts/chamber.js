@@ -7,10 +7,10 @@ hambuton.addEventListener('click', () => {
     mainnav.classList.toggle('responsive');
 })
 
+
 let currentdate = document.lastModified;
 
 document.querySelector('.updated2').textContent = currentdate;
-
 
 var d = new Date();
 var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];

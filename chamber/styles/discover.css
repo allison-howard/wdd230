@@ -4,6 +4,10 @@ a:hover {
     background-color: #687482;
 }
 
+a {
+    text-decoration :black ;
+}
+
 
 #location{
     padding:0px;
@@ -43,28 +47,8 @@ h2{
 footer {
     background-color: #9e9e9e;
     height: 400px;
-  }
-
-  .footer-left {
-    background-color: #9e9e9e;
-    border:none;
-    position: center;
-  }
-
-  .footer-right {
-    background-color: #9e9e9e;
-    border:none;
-    position:center;
-    left:500px;
-    bottom: 120px;
-  }
-
-  .footer-bottom{
-    background-color: #9e9e9e;
-    position: relative;
-    bottom: 125px;
-    left: 10px
-  }
+    margin: 10px;
+}
 
 nav a {
     padding: 50px
@@ -95,7 +79,7 @@ a:first-child{
 }
 
 /* Main */
-div {
+main div {
     border: solid 1px black;
     padding: 10px;
     height: 250px;
@@ -139,17 +123,11 @@ figcaption {
     text-align: center;
     padding: 5px;
 }
-img {
+
+main img {
     max-width: 400px;
     width: 95%;
 }
-
-
-
-
-
-
-
 
 
 

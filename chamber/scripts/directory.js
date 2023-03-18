@@ -5,6 +5,15 @@ const grid = document.querySelector('#grid');
 const cards = document.querySelector('.cards');
 const displayItems = document.querySelector('.displayItems');
 
+//Hamburger Button JS
+
+const mainnav = document.querySelector('.navigation');
+const hambuton = document.querySelector('.ham');
+
+hambuton.addEventListener('click', () => {
+    mainnav.classList.toggle('responsive');
+})
+
 
 async function getData(requestURL) {
     const response = await fetch(requestURL);
