@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" media="screen and (max-width: 650px)" href="styles/small.css" />
+    <link rel="stylesheet" media="screen and (min-width: 650px) and (max-width: 1100px)" href="styles/medium.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="styles/large.css" />
+
+    <title>Bountiful Foods</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+        <nav class="navigation">
+            <a class="ham" href="#">&#9776;</a>
+            <a href="index.html">Home</a>
+            <a href="fresh.html">Fresh</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </header>
+
+    <main id="grid-content">
+        <div class="content">
+            <form id="freshForm" onsubmit="submitForm(event)">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="phone">Phone:</label><br>
+                <input type="text" id="phone" name="phone"><br>
+                <input type="checkbox" id="fruit1" name="checkbox" value="label">
+                <label for="fruit1">loading...</label><br>
+                <input type="checkbox" id="fruit2" name="checkbox" value="label">
+                <label for="fruit2">loading...</label><br>
+                <input type="checkbox" id="fruit3" name="checkbox" value="label">
+                <label for="fruit3">loading...</label><br><br>
+                <label for="instructions">Special Instructions:</label><br>
+                <input type="text" id="instructions" name="instructions"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="formOutput"></div>
+    </main>
+
+    <footer>
+        <!-- <img src="images/logo-clear.png" alt="Logo"> -->
+        <div class="directions">
+            <b>Location</b>
+            <p>
+                <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215196,-117.287802,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24" target="_blank">
+                    Carlsbad, California 92056 
+                </a>
+            </p>
+        </div>
+        <div class="contact">
+            <b>Contact Us</b>
+            <p>Email: contact@bountifulfoods.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Office Hours: Mon - Sat 9:00AM - 5:00PM</p>
+        </div>
+        <div class="social_media">
+            <br>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook" width="50px"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="instagram" width="50px"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter" width="50px"></a>
+        </div>
+
+    </footer>
+    
+</body>
+<script src="scripts/fresh.js"></script>
+</html>
