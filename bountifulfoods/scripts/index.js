@@ -9,7 +9,7 @@ hambuton.addEventListener('click', () => {
 const date = new Date();
 const year = date.getFullYear();
 const modifiedDate = document.lastModified;
-const weatherAPI = 'https://api.openweathermap.org/data/3.0/onecall?lat=33.15846&lon=-117.343&exclude=minutely,hourly,alerts&units=imperial&appid=b1159721bd65dac769dcd4f88420a53a'
+const weatherAPI = 'https://api.openweathermap.org/data/3.0/onecall?lat=32.4207&lon=-104.2288&exclude=minutely,hourly,alerts&units=imperial&appid=b1159721bd65dac769dcd4f88420a53a'
 let numDrinks = localStorage.getItem(0) ? localStorage.getItem(0) : 0
 
 fetch(weatherAPI)

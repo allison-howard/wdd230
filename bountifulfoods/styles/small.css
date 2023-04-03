@@ -67,6 +67,10 @@ footer {
     padding: 15px;
 }
 
+#break {
+    display: none;
+}
+
 footer a {
     color: white;
 }
@@ -75,6 +79,8 @@ footer div {
     margin: 20px;
     border: none;
     height: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer b {
@@ -82,7 +88,7 @@ footer b {
 }
 
 .contact {
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
 .social_media {
@@ -96,10 +102,24 @@ footer b {
     display: none; 
 }
 
+#californiainfo, #weather, #calltoaction {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#californiainfo h2 {
+    text-align: center;
+}
+
+#californiainfo p {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
 .forecast {
     margin-left: 200px;
     margin-top: -170px;
     margin-left: 250px;
+    max-width: 200px;
     border: none;
 }
 
@@ -151,6 +171,7 @@ form {
     background-color: white;
     border-radius: 5px;
     border: solid 1px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 input[type=text], select {

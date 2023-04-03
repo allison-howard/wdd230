@@ -98,5 +98,4 @@ function submitForm(event) {
     localStorage.setItem(0, numDrinks)
 }
 
-document.querySelector('.copyright').innerHTML = `Copyright ${year} | Jake Edwards`
 document.querySelector('.modified').innerHTML = `Last Modified: ${modifiedDate}`
