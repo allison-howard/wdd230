@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Noto+Serif&display=swap');
+
+
 #grid-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -33,6 +36,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    font-family: 'Calistoga', cursive;
 }
 
 nav a:hover {
@@ -64,6 +68,7 @@ nav a:first-child{
 #weather {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+    min-width: 275px;
     
 }
 
@@ -83,26 +88,32 @@ nav a:first-child{
 
 #californiainfo h2 {
     text-align: center;
+    font-family: 'Calistoga', cursive;
 }
 
 #californiainfo p {
     margin-left: 8px;
+    font-family: 'Noto Serif', serif;
+    font-size: 13px;
+
 }
 
 
 .forecast {
-    margin-left: 200px;
+    margin-left: 175px;
     margin-right: 70px;
-    margin-top:-300px;
+    margin-top: -180px;
     border: none;
-    display: inline-block;
-    max-width: 200px;
-    width: 50px;
+    max-width: 250px;
+    width: 90px;
+    font-family: 'Noto Serif', serif;
+    font-size: 13px;
 }
 
 .description, .temperature, .humidity {
     margin-left: 20px;
     margin-top: 20px;
+    font-family: 'Noto Serif', serif;
 }
 
 button {
@@ -114,6 +125,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin-left: 75px;
+    font-family: 'Noto Serif', serif;
 }
 
 button:hover {
@@ -122,18 +134,21 @@ button:hover {
 
 #linktofresh {
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
 }
 
 #drinksordered {
     margin-top: -10px;
     margin-left: 20px;
+    font-family: 'Calistoga', cursive;
 }
 
 .freshInfo {
     margin-left: 260px;
     margin-right: 20px;
-    margin-top: -52px;
+    margin-top: -57px;
+    font-family: 'Noto Serif', serif;
 }
 
 
@@ -167,6 +182,18 @@ footer b {
     font-size: 1.5em;
 }
 
+.contact b {
+    font-family: 'Calistoga', cursive;
+}
+
+.directions b {
+    font-family: 'Calistoga', cursive;
+}
+
+footer p {
+    font-family: 'Noto Serif', serif;
+}
+
 .social_media {
     margin-top: 50px;
 }
@@ -191,7 +218,9 @@ form {
     border-radius: 5px;
     border: solid 1px black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Noto Serif', serif;
 }
+
 
 input[type=text], select {
     width: 100%;
@@ -216,6 +245,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Noto Serif', serif;
 }
   
 input[type=submit]:hover {
@@ -224,7 +254,7 @@ input[type=submit]:hover {
 
 .formOutput {
     border: none;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -232,15 +262,23 @@ input[type=submit]:hover {
   .formOutput > * {
     text-align: center;
     margin: 7px;
+    font-family: 'Noto Serif', serif;
   }
 
 /*About us Content*/
 
 #aboutus-content {
     margin: 50px 100px 50px 100px;
+    font-family: 'Noto Serif', serif;
 }
 
 #aboutus-content p {
+    font-size: 20px;
+}
+
+
+#aboutus-content b {
+    font-family: 'Calistoga', cursive;
     font-size: 20px;
 }
 

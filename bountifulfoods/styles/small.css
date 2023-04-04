@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Noto+Serif&display=swap');
+
+
 div {
     border: solid 1px black;
     margin-top: 20px;
@@ -33,6 +36,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    font-family: 'Calistoga', cursive;
     
 }
 
@@ -91,6 +95,18 @@ footer b {
     margin-top: 20px;
 }
 
+.contact b {
+    font-family: 'Calistoga', cursive;
+}
+
+.directions b {
+    font-family: 'Calistoga', cursive;
+}
+
+footer p {
+    font-family: 'Noto Serif', serif;
+}
+
 .social_media {
     margin-top: 40px;
 }
@@ -108,24 +124,27 @@ footer b {
 
 #californiainfo h2 {
     text-align: center;
+    font-family: 'Calistoga', cursive;
 }
 
 #californiainfo p {
     margin-left: 75px;
     margin-right: 75px;
+    font-family: 'Noto Serif', serif;
 }
 
 .forecast {
-    margin-left: 200px;
-    margin-top: -170px;
-    margin-left: 250px;
+    margin-left: 240px;
+    margin-top: -185px;
     max-width: 200px;
     border: none;
+    font-family: 'Noto Serif', serif;
 }
 
 .description, .temperature, .humidity {
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 25px;
+    font-family: 'Noto Serif', serif;
 }
 
 button {
@@ -137,6 +156,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin-left: 110px;
+    font-family: 'Noto Serif', serif;
 }
 
 button:hover {
@@ -145,17 +165,20 @@ button:hover {
 
 #linktofresh {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
 }
 
 #drinksordered {
     margin-top: -10px;
     margin-left: 105px;
+    font-family: 'Calistoga', cursive;
 }
 
 .freshInfo {
-    margin-left: 335px;
-    margin-top: -52px;
+    margin-left: 345px;
+    margin-top: -59px;
+    font-family: 'Noto Serif', serif;
 }
 
 /*Fresh Content*/
@@ -172,6 +195,7 @@ form {
     border-radius: 5px;
     border: solid 1px black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Noto Serif', serif;
 }
 
 input[type=text], select {
@@ -197,6 +221,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Noto Serif', serif;
 }
   
 input[type=submit]:hover {
@@ -210,15 +235,22 @@ input[type=submit]:hover {
 
 .formOutput > * {
     text-align: center;
+    font-family: 'Noto Serif', serif;
 }
 
 /*About us Content*/
 
 #aboutus-content {
     margin: 50px 100px 50px 100px;
+    font-family: 'Noto Serif', serif;
 }
 
 #aboutus-content p {
+    font-size: 20px;
+}
+
+#aboutus-content b {
+    font-family: 'Calistoga', cursive;
     font-size: 20px;
 }
 

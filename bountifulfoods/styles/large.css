@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Noto+Serif&display=swap');
+
+
 #grid-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,6 +39,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    font-family: 'Calistoga', cursive;
 }
 
 nav a:hover {
@@ -84,23 +88,27 @@ nav a:first-child{
 
 #californiainfo h2 {
     text-align: center;
+    font-family: 'Calistoga', cursive;
 }
 
 #californiainfo p {
     margin-left: 75px;
     margin-right: 75px;
+    font-family: 'Noto Serif', serif;
 }
 
 .forecast {
-    margin-left: 250px;
-    margin-top: -170px;
+    margin-left: 270px;
+    margin-top: -180px;
     max-width: 200px;
     border: none;
+    font-family: 'Noto Serif', serif;
 }
 
 .description, .temperature, .humidity {
-    margin-left: 20px;
-    margin-top: 25px;
+    margin-left: 50px;
+    margin-top: 23px;
+    font-family: 'Noto Serif', serif;
 }
 
 button {
@@ -112,6 +120,8 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin-left: 118px;
+    margin-top:-30px;
+    font-family: 'Noto Serif', serif;
 }
 
 button:hover {
@@ -120,18 +130,21 @@ button:hover {
 
 #linktofresh {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
 }
 
 #drinksordered {
     margin-top: -10px;
     margin-left: 120px;
+    font-size: 22px;
+    font-family: 'Calistoga', cursive;
 }
 
 .freshInfo {
-    margin-left: 350px;
-    margin-right: 20px;
-    margin-top: -52px;
+    margin-left: 345px;
+    margin-top: -56px;
+    font-family: 'Noto Serif', serif;
 }
 
 
@@ -165,6 +178,18 @@ footer b {
     font-size: 1.5em;
 }
 
+.contact b {
+    font-family: 'Calistoga', cursive;
+}
+
+.directions b {
+    font-family: 'Calistoga', cursive;
+}
+
+footer p {
+    font-family: 'Noto Serif', serif;
+}
+
 .social_media {
     margin-top: 50px;
 }
@@ -182,13 +207,14 @@ footer b {
 
 form {
     max-width: 400px;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 20px;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
     border: solid 1px black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Noto Serif', serif;
 }
 
 input[type=text], select {
@@ -214,6 +240,7 @@ input[type=text], select {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Noto Serif', serif;
 }
   
 input[type=submit]:hover {
@@ -222,9 +249,10 @@ input[type=submit]:hover {
 
 .formOutput {
     border: none;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Noto Serif', serif;
 }
 
 .formOutput > * {
@@ -236,9 +264,15 @@ input[type=submit]:hover {
 
 #aboutus-content {
     margin: 50px 100px 50px 100px;
+    font-family: 'Noto Serif', serif;
 }
 
 #aboutus-content p {
+    font-size: 20px;
+}
+
+#aboutus-content b {
+    font-family: 'Calistoga', cursive;
     font-size: 20px;
 }
 
